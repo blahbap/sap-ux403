@@ -1,0 +1,18 @@
+@Metadata: {
+    layer: #CUSTOMER
+}
+@UI.headerInfo.typeName: 'Sales Order'
+@UI.headerInfo.typeNamePlural: 'Sales Orders'
+@UI.headerInfo.title.value: 'SalesOrderID'
+annotate view ZCDS_UX403_META_05
+with
+{
+  @UI.lineItem:[{position:10}]
+  SalesOrderID;
+  @UI.lineItem:[{position:20}]
+  CustomerID;
+  @UI.lineItem:[{position:30}]
+  CustomerName;
+  @UI.lineItem:[{position:40}]
+  GrossAmount;
+}
