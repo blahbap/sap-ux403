@@ -1,0 +1,16 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"SEPM_P_SALESORDERITEMCUBE"
+],
+"ASSOCIATED":
+[],
+"BASE":
+[],
+"ANNO_REF":
+[],
+"VERSION":0
+}
+}
